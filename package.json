@@ -4,7 +4,9 @@
   "description": "node js application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+	"serve": "nodemon index.js",
+	"import:data": "node seederScript.js"
   },
   "author": "Mohamed Rifkan",
   "license": "ISC",
